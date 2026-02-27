@@ -1,10 +1,13 @@
-🦅 FALCON AI — Full-Stack LLM Assistant
+# 🦅 FALCON AI — Full-Stack LLM Assistant
+
 FALCON AI is a production-ready full-stack AI assistant built using FastAPI, LangChain, Ollama, and Flet.
 It features a decoupled backend architecture, persona-based responses, session memory handling, and a modern cross-platform UI.
+
 <img width="1920" height="1080" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/fdf9ae60-dcc1-4c43-94fb-3004ec565d0e" />
+
 This project demonstrates real-world AI system design — not just model inference.
 
-🚀 Architecture Overview
+## 🚀 Architecture Overview
 ```
 Flet Frontend (UI)
         ↓ REST API
@@ -15,15 +18,14 @@ LangChain Agent Layer
 Ollama LLM Server
 ```
 
-Key Design Principles
-
+## Key Design Principles
 1. Decoupled frontend and backend
 2. Agent-based orchestration
 3. Session-based conversational memory
 4. Extensible tool integration
 5. Mobile-ready UI architecture
 
-   ✨ Features
+## ✨ Features
 
 🧠 LangChain Agent-based architecture
 
@@ -41,7 +43,7 @@ Key Design Principles
 
 🔌 Ollama local/cloud model support
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Backend
 
@@ -61,7 +63,7 @@ LLM
 
 Ollama-hosted models (e.g., kimi-k2.5, ministral, etc.)
 
-⚙️ Installation
+## ⚙️ Installation
 1️⃣ Clone Repository
 ```
 git clone https://github.com/yourusername/falcon-ai.git
@@ -80,7 +82,7 @@ uvicorn main:app --reload
 pip install flet requests
 python flet_app.py
 ```
-🧩 Future Improvements
+## 🧩 Future Improvements
 
 WebSocket streaming responses
 
@@ -95,8 +97,10 @@ Tool automation agents
 LangGraph integration
 
 Cloud deployment (Railway / Render / AWS)
-👨‍💻 Author
+
+## 👨‍💻 Author
 
 Mohd Abuzar
-AI & Machine Learning Engineer
+GEN AI & Machine Learning Engineer
 Focused on building production-grade ML and Generative AI systems.
+
