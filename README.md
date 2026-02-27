@@ -45,28 +45,21 @@ Ollama LLM Server
 
 ## 🛠️ Tech Stack
 
-Backend
-
-FastAPI
-
-LangChain
-
-Ollama
-
-Pydantic
-
-Frontend
-
-Flet (Python cross-platform UI)
-
-LLM
-
-Ollama-hosted models (e.g., kimi-k2.5, ministral, etc.)
+## Backend
+1. FastAPI
+2. LangChain
+3. Ollama
+4. Pydantic
+   
+## Frontend
+1. Flet (Python cross-platform UI)
+2. LLM
+3. Ollama-hosted models (e.g., kimi-k2.5, ministral, etc.)
 
 ## ⚙️ Installation
 1️⃣ Clone Repository
 ```
-git clone https://github.com/yourusername/falcon-ai.git
+git clone https://github.com/AbuZar-Ansarii/FastFletAgent.git
 cd falcon-ai
 ```
 2️⃣ Backend Setup
@@ -82,6 +75,25 @@ uvicorn main:app --reload
 pip install flet requests
 python flet_app.py
 ```
+
+## 🔥 Why This Project Matters
+
+This is not a simple chatbot UI.
+
+It demonstrates:
+
+AI system architecture design
+
+Agent orchestration
+
+API-based separation of concerns
+
+Cross-platform deployment strategy
+
+Real-world LLM integration
+
+It reflects production-level thinking in AI application development.
+
 ## 🧩 Future Improvements
 
 WebSocket streaming responses
@@ -103,4 +115,5 @@ Cloud deployment (Railway / Render / AWS)
 Mohd Abuzar
 GEN AI & Machine Learning Engineer
 Focused on building production-grade ML and Generative AI systems.
+
 
