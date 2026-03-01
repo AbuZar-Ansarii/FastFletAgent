@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from typing import Optional, Dict, List
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langchain.agents import create_agent
+from prompts import mahatma_gandhi_prompt, dr_apj_kalam_prompt, ai_tutor_prompt, fitness_coach_prompt, career_advisor_prompt, general_prompt
 from tool import tools 
 import uuid
 import os
