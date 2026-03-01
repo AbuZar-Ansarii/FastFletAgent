@@ -28,7 +28,7 @@ llm = ChatOllama(
     temperature=0,
 )
 
-# If you have tools, import them
+# tools= binding
 llm_with_tools = llm.bind_tools(tools)
 agent = create_agent(llm_with_tools, tools)
 
